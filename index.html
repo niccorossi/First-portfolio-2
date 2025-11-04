@@ -1,0 +1,362 @@
+  <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGAZIONE PRINCIPALE -->
+    <nav id="main-nav">
+        <a href="#" class="logo">Dev<span>Portfolio</span></a>
+        <div class="nav-links">
+            <a href="#about">Chi Sono</a>
+            <a href="#story">La Mia Storia</a>
+            <a href="#projects">Progetti</a>
+            <a href="#stats">Statistiche</a>
+            <a href="#contact">Contatti</a>
+        </div>
+        <div class="mobile-menu-btn">☰</div>
+    </nav>
+
+    <!-- SEZIONE HERO / INTRODUZIONE -->
+    <section class="hero" id="home">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Web Developer & Designer</h1>
+            <p class="hero-subtitle">Trasformo idee in esperienze digitali straordinarie</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">Scopri i miei progetti</a>
+                <a href="#contact" class="btn btn-secondary">Contattami</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- SEZIONE CHI SONO -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Ciao, sono Marco Rossi</h3>
+                    <p>Sono uno sviluppatore web full-stack con oltre 5 anni di esperienza. La mia missione è creare soluzioni digitali che uniscano design elegante e tecnologia all'avanguardia.</p>
+                    <p>Specializzato in JavaScript, React e Node.js, mi piace affrontare sfide complesse e trasformarle in interfacce intuitive e performanti.</p>
+                    
+                    <div class="skills-container">
+                        <h4>Competenze Principali</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Frontend Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Backend Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">UI/UX Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <div class="tech-icon">⚡</div>
+                            <h4>Performance</h4>
+                            <p>Siti veloci e ottimizzati</p>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <div class="tech-icon">📱</div>
+                            <h4>Responsive</h4>
+                            <p>Adatto a tutti i dispositivi</p>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <div class="tech-icon">🎨</div>
+                            <h4>Design</h4>
+                            <p>Interfacce moderne e intuitive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE LA MIA STORIA -->
+    <section id="story" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Il Mio Percorso</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>Inizio del Viaggio</h3>
+                        <p>Primi passi nel mondo della programmazione. Ho iniziato con HTML, CSS e JavaScript, creando i miei primi progetti personali.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3>Prima Esperienza Lavorativa</h3>
+                        <p>Developer junior in un'agenzia web. Ho collaborato allo sviluppo di 10+ progetti per clienti internazionali.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Specializzazione Full-Stack</h3>
+                        <p>Mi sono specializzato in React e Node.js, lavorando su applicazioni web complesse e scalable.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Oggi</div>
+                    <div class="timeline-content">
+                        <h3>Developer Senior & Freelance</h3>
+                        <p>Collaboro con startup e aziende per creare soluzioni digitali innovative e performanti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE PROGETTI -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">I Miei Progetti</h2>
+            <div class="projects-grid">
+                
+                <!-- PROGETTO 1 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-badge">E-commerce</div>
+                            </div>
+                            <div class="project-info">
+                                <h3>TechStore</h3>
+                                <p>Piattaforma e-commerce completa</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>TechStore</h3>
+                            <p>Piattaforma e-commerce con carrello avanzato, sistema di pagamento e dashboard admin.</p>
+                            <ul class="project-features">
+                                <li>+300 prodotti gestiti</li>
+                                <li>Payments integrati</li>
+                                <li>Mobile-first design</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Live Demo</a>
+                                <a href="#" class="btn-link">Codice</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROGETTO 2 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-badge">Dashboard</div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Analytics Pro</h3>
+                                <p>Dashboard dati in tempo reale</p>
+                                <div class="project-tech">
+                                    <span>Vue.js</span>
+                                    <span>Firebase</span>
+                                    <span>Chart.js</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Analytics Pro</h3>
+                            <p>Dashboard per analisi dati con visualizzazioni interattive e report personalizzabili.</p>
+                            <ul class="project-features">
+                                <li>Dati in tempo reale</li>
+                                <li>10+ tipi di grafici</li>
+                                <li>Export PDF/Excel</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Live Demo</a>
+                                <a href="#" class="btn-link">Codice</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROGETTO 3 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-badge">Mobile App</div>
+                            </div>
+                            <div class="project-info">
+                                <h3>TaskFlow</h3>
+                                <p>App gestione attività</p>
+                                <div class="project-tech">
+                                    <span>React Native</span>
+                                    <span>Redux</span>
+                                    <span>SQLite</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>TaskFlow</h3>
+                            <p>Applicazione mobile per gestione progetti con notifiche e sincronizzazione cloud.</p>
+                            <ul class="project-features">
+                                <li>Notifiche push</li>
+                                <li>Collaborazione team</li>
+                                <li>Sync multi-device</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">App Store</a>
+                                <a href="#" class="btn-link">Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE STATISTICHE -->
+    <section id="stats" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Numeri che Contano</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🚀</div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Progetti Completati</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <div class="stat-number" data-target="35">0</div>
+                    <div class="stat-label">Clienti Soddisfatti</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💻</div>
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Anni Esperienza</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-label">Premi e Riconoscimenti</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE CONTATTI -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Mettiamoci in Contatto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Parliamo del tuo progetto</h3>
+                    <p>Hoi un'idea? Voglio ascoltarla. Contattami e discutiamo come posso aiutarti a realizzarla.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>marco.rossi@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <strong>Telefono</strong>
+                                <p>+39 123 456 7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Milano, Italia</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Il tuo nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="La tua email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Oggetto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Raccontami del tuo progetto..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Dev<span>Portfolio</span></a>
+                    <p>Creo esperienze digitali straordinarie</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">Chi Sono</a>
+                    <a href="#projects">Progetti</a>
+                    <a href="#contact">Contatti</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Marco Rossi. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT ESTERNI -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
